@@ -1,0 +1,313 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+
+img{
+	width: 30%;
+}
+.logo{
+	height: 120px;
+    margin-left: 10%;
+    width: auto;
+
+}
+
+/*Design general */
+
+
+
+
+body{
+	background-image: url(image/backfond.jpg);
+}
+
+.boutonMenu{
+	font-family: 'Open Sans', sans-serif;
+	color: black;
+	text-decoration: none;
+	margin-right: 25px;
+}
+
+
+/* Design Typographique */
+
+h2{
+	font-family: 'Abril Fatface', cursive;
+	color: red;
+	text-align: center;
+	font-size: 10vh;
+}
+
+h3{
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	font-size: 5vh;
+
+}
+
+/* Design Menu */
+header{
+	width: 100vw;
+	height: 120px;
+	background-color: white;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: fixed;
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+	
+}
+
+.menufantome{
+	width: 100vw;
+	height: 120px;
+
+}
+
+label{
+	font-size: 40px;
+	display: none;
+}
+
+#switch {
+	display: none;
+} 
+
+nav a:hover{
+	background-color: grey;
+	color: white;
+}
+
+@media (max-width: 700px){
+	header{
+		display: block;
+	}
+
+	.logo{
+		float: left;
+	}
+
+	nav{
+		display: none;
+	}
+
+	label{
+		display: block;
+		float: right;
+		margin-top: 20px;
+		margin-right: 20px;
+	}
+
+	#switch:checked + nav{
+		display: block;
+		clear: both;
+		width: 100%;
+		border-top: 2px solid black;
+	}
+
+	nav a{
+		width: 100%;
+		background-color: white;
+		display: block;
+		text-align: center;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		border-bottom: 2px solid black;
+
+	}
+}
+
+
+/* Section 1 */
+
+.Colonnecentrale{
+	width: 80vw;
+	min-height: 80vh;
+	margin-left: 10vw;
+	background-color: white; 
+}
+
+@media (max-width: 500px){
+	.section2{
+		width: 100vw;
+		margin-left: 0px;
+		flex-direction: column;
+		display: block;
+		}
+}
+
+.photointro{
+      width: 50%;
+      margin-left: 25%;
+      display: flex;
+      justify-content: center;
+}
+
+}
+.Lien{
+	color: blue;
+	text-decoration: none;
+
+}
+
+/* Section 2*/
+
+.section2{
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.textesection2{
+	color: black;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 80%;
+	padding: 5%;
+
+}
+
+
+.cartesection2{
+	width: 30%;
+	min-height: 40vh;
+	background-image: url(image/back.jpg);
+	box-shadow: 0px 0px 30px rgba(0,0,0,0.5);
+	display:flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+
+}
+
+.imagesection2{
+	width: 80%;
+	margin-bottom: 10%;
+	
+}
+
+
+
+.lien{
+	color: red;
+	text-decoration: none;
+	font-family: 'Abril Fatface', cursive;
+
+
+}
+
+/* section3 */
+
+.section3{
+	width: 100%;
+	min-height: 70vh;
+	display: table;
+
+
+}
+
+.textesection3{
+	font-family: 'Open Sans', sans-serif;
+	text-align: justify;
+	margin-right: 10%;
+	margin-bottom: 30px;
+	padding: 5%;
+}
+
+.cartesection3{ 
+	width: 90%;
+	display: flex;
+	margin-left: 5vh;
+	align-items: center;
+	min-height: 25vh; 
+	flex-direction: row;
+	
+
+}
+
+.imagesection3{
+	height: 15vh;
+	justify-content: center;
+
+
+
+}
+
+@media (max-height: 500px){
+	.section3{
+		width: 100vw;
+		margin-left: 0px;
+		flex-direction: column;
+		display: none;
+	}
+	.textesection3{
+		float: none;
+	}
+}
+
+.imagefooter{
+	width: 4vh;
+	min-height: 40px;
+	max-height: 50px;
+	justify-content: space-around;
+	display: flex;
+	margin-right: 25px;
+	margin-top: 30%;
+
+}
+
+/* Footer*/
+footer{
+	width: 100vw;
+	height: 100px;
+	background-color: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+footer a{
+	font-family: 'Open Sans', sans-serif;
+	color: white;
+	text-decoration: none;
+	margin-right: 25px;
+}
+
+@media (max-width: 500px){
+	footer{
+		display: block;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
